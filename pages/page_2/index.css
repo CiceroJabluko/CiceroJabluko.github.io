@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Buttons Font";
-  src: url("/fonts/Gameplay.ttf");
+  src: url("../../fonts/Gameplay.ttf");
   font-size: 10vh;
 }
 @font-face {
   font-family: "Custom Font";
-  src: url("/fonts/Computer_Pixel.ttf");
+  src: url("../../fonts/Computer_Pixel.ttf");
 }
 
 body {
@@ -45,13 +45,14 @@ body {
   align-items: center;
   rotate: 0deg;
   border: 0px;
-  box-shadow: inset 0px 5px 20px rgb(0, 0, 0, 1), inset 0px -8px 10px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 5px 20px rgb(0, 0, 0, 1),
+    inset 0px -8px 10px rgba(0, 0, 0, 1);
 }
 
 .custom-button-two {
   font-family: "Buttons Font", sans-serif;
   letter-spacing: 4px;
-  background-color: #020202; 
+  background-color: #020202;
   color: rgb(255, 252, 79);
   text-shadow: #767676 2px 0px 5px;
   padding: 22px 20px 12px;
@@ -88,12 +89,3 @@ body {
   filter: brightness(300%);
   transform: translateY(8px);
 }
-
-
-
-
-
-
-
-
-

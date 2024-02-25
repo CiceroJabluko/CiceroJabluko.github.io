@@ -3,16 +3,19 @@ function enableFullscreen() {
 
   if (element.requestFullscreen) {
     element.requestFullscreen();
-  } else if (element.mozRequestFullScreen) { // Firefox
+  } else if (element.mozRequestFullScreen) {
+    // Firefox
     element.mozRequestFullScreen();
-  } else if (element.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+  } else if (element.webkitRequestFullscreen) {
+    // Chrome, Safari, and Opera
     element.webkitRequestFullscreen();
-  } else if (element.msRequestFullscreen) { // Internet Explorer/Edge
+  } else if (element.msRequestFullscreen) {
+    // Internet Explorer/Edge
     element.msRequestFullscreen();
   }
 }
 
-document.addEventListener('click', enableFullscreen);
+document.addEventListener("click", enableFullscreen);
 
 var vid = document.getElementById("kiva-video");
 
@@ -40,7 +43,7 @@ setInterval(function () {
   document.getElementById("time").textContent = secondsLeft;
   if (secondsLeft <= 0) {
     clearInterval(this);
-    window.location.href = "/pages/page_false_win/page_false/page_2_false.html";
+    window.location.href = "../page_false_win/page_false/page_2_false.html";
   } else if (secondsLeft <= 30) {
     document.getElementById("time").classList.add("blinking");
   } else {

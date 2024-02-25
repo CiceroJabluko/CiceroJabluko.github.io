@@ -1,0 +1,10 @@
+{
+  "name": "kiva",
+  "version": "1.0.0",
+  "description": "perfect game",
+  "main": "./index.html",
+  "repository": "https://github.com/CiceroJabluko/nonono.github.io.git",
+  "author": "Jabluko Cyceron",
+  "license": "MIT",
+  "private": null
+}
